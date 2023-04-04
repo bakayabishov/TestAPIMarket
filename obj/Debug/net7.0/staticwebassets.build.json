@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zPUJx+1eZgCotBcLmP32PtfgE9Wcas5rmlIdFdLODPU=",
+  "Source": "TestAPIMarket",
+  "BasePath": "_content/TestAPIMarket",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
