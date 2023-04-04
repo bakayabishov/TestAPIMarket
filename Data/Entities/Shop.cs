@@ -1,4 +1,3 @@
-using DataAccess.Entities;
 using TestAPIMarket.Data.Entities.Configurations;
 
 namespace TestAPIMarket.Data.Entities;

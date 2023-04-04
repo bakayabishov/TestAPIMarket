@@ -1,14 +1,15 @@
-﻿using DataAccess.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TestAPIMarket.Data.Entities;
 
 namespace TestAPIMarket.Data
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options, DbSet<User> users, DbSet<Shop> shops, DbSet<Product> products) : base(options)
         {
-
+            Users = users;
+            Shops = shops;
+            Products = products;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
